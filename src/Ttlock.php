@@ -130,7 +130,6 @@ class Ttlock
         ]);
         //返回值
         $result = $response->getBody()->getContents();
-        
        return $result;
     }
 
