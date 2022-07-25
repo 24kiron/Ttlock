@@ -1,5 +1,5 @@
 {
-    "name": "test/test",
+    "name": "hemingxing/ttlock",
     "type": "library",
     "description": "通通锁api",
     "license": "MIT",
