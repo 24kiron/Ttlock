@@ -6,7 +6,7 @@
  * Time: 14:50
  */
 
-namespace test;
+namespace Hemingxing;
 
 use GuzzleHttp\Exception\ClientException;
 
