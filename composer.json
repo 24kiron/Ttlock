@@ -16,5 +16,6 @@
             "name": "hmx089674",
             "email": "2151320248@qq.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
