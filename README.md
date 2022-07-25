@@ -6,7 +6,7 @@
 **安装**
 
 ```
-composer require Ttlock/api
+composer require hemingxing/ttlock
 ```
 ### Ttlock api
 
