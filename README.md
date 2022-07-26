@@ -30,7 +30,7 @@ composer require hemingxing/ttlock
 -- getRandPwdUnlock 获取开锁随机密码（从云端获取一个6-9位数字的随机密码用于开锁，密码由云端的算法规则生成，不需要锁连接网关就可以获取，位数主要由密码类型和有效期长短决定，密码随机生成，不可定制)
 ```
 ```
--- getRandPwdUnlock 添加自定义密码（向锁里写入一个4-9位的自定义限期密码)
+-- createSelfMakeLockPwd 添加自定义密码（向锁里写入一个4-9位的自定义限期密码)
 ```
 ```
 -- getListKeyboardPwd 获取锁的密码列表（管理员或授权管理员查看这把锁上生成的所有密码，包含随机密码和自定义密码。)
