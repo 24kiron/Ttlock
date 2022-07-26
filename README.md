@@ -58,6 +58,9 @@ composer require hemingxing/ttlock
 ```
 -- updateKeyboardPwd 修改密码（修改之前生成的随机密码或自定义密码）
 ```
+```
+-- deleteKeyboardPwd 删除密码
+```
 ## 写在最后
 
 感谢您的使用，正在持续开发更多功能中...

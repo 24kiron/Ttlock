@@ -196,4 +196,30 @@ class Ttlock
         return $result;
     }
 
+    /**
+     * 删除密码
+     * @param $lockId 锁ID
+     * @param $access_token 访问令牌
+     * @param $keyboardPwdId 键盘密码ID
+     * @return string
+     */
+    public function deleteKeyboardPwd($lockId, $access_token, $keyboardPwdId)
+    {
+        $url = "https://api.ttlock.com/v3/keyboardPwd/delete";
+        $response = $this->client->post($url, [
+            'headers' => ['Content-type' => 'application/x-www-form-urlencoded'],
+            'form_params' => [
+                'clientId' => $this->client_id,//参数
+                'accessToken' => $access_token,//参数
+                'lockId' => $lockId,//参数
+                'keyboardPwdId' => $keyboardPwdId,//参数
+                'deleteType' => 2,//参数
+                'date' => time() * 1000,//参数
+            ]
+        ]);
+        //返回值
+        $result = $response->getBody()->getContents();
+        return $result;
+    }
+
 }
